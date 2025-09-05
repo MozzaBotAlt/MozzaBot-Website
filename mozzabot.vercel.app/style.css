@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li, a, button, labsim {
+body, h1, h2, h3, p, ul, li, a, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body, h1, h2, h3, p, ul, li, a, button, labsim {
 
 /* Body background and text */
 body {
-    background: linear-gradient(120deg, #9418e7 0%, #1092ef 100%);
+    background: linear-gradient(120deg, #9800ff 10%, #1092ef 90%);
     color: #222;
     min-height: 100vh;
     line-height: 1.6;
@@ -165,4 +165,5 @@ nav ul li a:hover {
     }
 
 }
+
 
