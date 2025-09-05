@@ -3,7 +3,7 @@ body, h1, h2, h3, p, ul, li, a, button, labsim {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Copperplate Gothic Light', 'Copperplate Gothic', sans-serif;
 }
 
 /* Body background and text */
@@ -18,7 +18,7 @@ body {
 .container {
     max-width: 900px;
     margin: 40px auto;
-    background: #a9565a;
+    background: #68D22D;
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     padding: 32px 24px;
@@ -41,16 +41,18 @@ h1 {
 
 h2 {
     font-size: 1.7rem;
+    color: #fff;
 }
 
 h3 {
     font-size: 1.2rem;
+    color: #fff;
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 16px;
-    color: #444;
+    color: #fff;
 }
 
 /* Links */
@@ -163,3 +165,4 @@ nav ul li a:hover {
     }
 
 }
+
