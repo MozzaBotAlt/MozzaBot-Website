@@ -14,6 +14,12 @@ body {
     line-height: 1.6;
 }
 
+h1, h2, h3, p, {
+    color: #000000;
+    font-family: 'Copperplate Gothic Light', 'Copperplate Gothic', sans-serif;
+    margin-bottom: 16px;
+}
+
 /* Container */
 .container {
     max-width: 900px;
@@ -26,10 +32,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    color: #2a5298;
-    margin-bottom: 16px;
     font-weight: 700;
-    font-family: 'Copperplate Gothic Light', 'Copperplate Gothic', sans-serif;
 }
 
 h1 {
@@ -41,18 +44,15 @@ h1 {
 
 h2 {
     font-size: 1.7rem;
-    color: #fff;
 }
 
 h3 {
     font-size: 1.2rem;
-    color: #fff;
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 16px;
-    color: #fff;
 }
 
 /* Links */
@@ -165,6 +165,7 @@ nav ul li a:hover {
     }
 
 }
+
 
 
 
